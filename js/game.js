@@ -72,7 +72,7 @@ class RockPaperScissorsGame {
     } else {
       console.log("So bad, dude!");
     }
-    console.log(`You won ${this.won} out of ${this.playedRounds}, with ${this.ties} ties.`);
+    console.log(`You won ${this.won} out of ${this.playedRounds}, with ${this.ties} tie(s).`);
   }
 
   constructor(rounds) {
