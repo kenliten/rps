@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenliten/front-end/components/minimal/css/minimal.base.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenliten/front-end/components/minimal/css/minimal.utils.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenliten/front-end/components/minimal/css/minimal.buttons.css">
+  </head>
+  <body>
+
+    <h1 class="white-text text-center cyan">Rock, Paper, Scissors</h1>
+
+    <div class="panel">
+      <div class="panel text-center padding-xl" id="restart-button-panel">
+        <button class="red" id="restart-button">Restart</button>
+      </div>
+      <div class="text-center padding-xl" id="controls-panel">
+        <h2 class="cyan-text padding-l">Pick one to start playing</h2>
+        <div class="row">
+          <div class="col">
+            <button id="rock-button" class="black">Rock</button>
+          </div>
+          <div class="col">
+            <button id="paper-button" class="">Paper</button>
+          </div>
+          <div class="col">
+            <button id="scissors-button" class="orange">Scissors</button>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="container padding-xxl white-text" id="info">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="borderless padding-m text-center">
+        <li><h2>Statistics</h2></li>
+        <li class="row">
+          <div class="col">
+            <b>Player: </b><span id="player-points"></span>
+          </div>
+          <div class="col">
+            <b>Computer: </b><span id="computer-points"></span>
+          </div>
+        </li>
+        <li><h3>Result</h3></li>
+        <li id="result">
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/game.v2.js"></script>
+  </body>
+</html>

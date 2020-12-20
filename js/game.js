@@ -10,7 +10,7 @@ class RockPaperScissorsGame {
   ties = 0;
 
   computerPlay() {
-    this.computerSelection = this.availablePlays[Math.floor(Math.random() * 3)];
+    this.computerSelection = this.availablePlays[Math.floor(Math.random() * 2)];
   }
 
   playRound() {
